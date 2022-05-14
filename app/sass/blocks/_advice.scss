@@ -1,0 +1,124 @@
+.advice--bgc {
+    background-color: #F3F3F3;
+    padding-top: 90px;
+    padding-bottom: 243px;
+}
+
+.advice {
+    margin: 0 -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.advice-title {
+    padding: 0 15px;
+    width: 100%;
+}
+
+.advice-title h2 {
+    font-size: 36px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    max-width: 168px;
+    margin: auto;
+}
+
+.advice-title p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    max-width: 233px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 75px;
+}
+
+.advice-item {
+    padding: 0 15px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.advice-item__list {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.advice-item__list h3 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    max-width: 285px;
+}
+
+.advice-item__list p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    max-width: 300px;
+    margin-left: 30px;
+    margin-bottom: 35px;
+}
+
+.advice-item__list img {
+    display: block;
+}
+
+.responsive {
+  width: 100%;
+  max-width: 345px;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .advice--bgc {
+        padding-bottom: 80px;
+    }
+    .advice-item {
+        width: 50%;
+    }
+
+    .advice-title {
+        margin-top: 125px;
+    }
+
+    .advice-title h2 {
+        max-width: 330px;
+    }
+
+    .advice-title p {
+        max-width: 470px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .advice--bgc {
+        background-color: #FAFAFA;
+        padding-bottom: 80px;
+    }
+
+    .advice-item {
+        width: 25%;
+    }
+
+    .advice-item__list h3 {
+        max-width: 130px;
+    }
+
+    .advice-item__list p {
+        max-width: 180px;
+    }
+}
